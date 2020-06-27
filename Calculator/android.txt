@@ -1,0 +1,3 @@
+title=Achu's Calculator
+author=Ashwin Ram
+orientation=portrait
