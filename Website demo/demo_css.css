@@ -1,0 +1,190 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    color: white;
+    text-align: left;
+    font-size: 7.5px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+#logo b{
+    font-size: 15px;
+}
+
+#logo_image{
+    float: left;
+    padding-right: 5px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.nav li {
+    float: left;
+}
+  
+.nav li a, .nav [class|="btn"]{
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+}
+  
+.nav li a:hover, .nav [class|="btn"]:hover {
+    background-color: rgba(255, 255, 255, 0.712);
+    color: #333;
+}
+
+.nav [class|="nav"]{
+    display: inline-block;
+}
+
+.nav [class|="lst"]{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.nav [class|="lst"] a{
+    color:rgb(87, 84, 84);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.nav [class|="lst"] a:hover{
+    background-color: #f1f1f19c;
+    color: black;
+}
+
+.nav [class|="nav"]:hover [class|="lst"]{
+    display: block;
+}
+
+.first{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 8px;
+}
+
+#background{
+    opacity: 0.6;
+}
+
+.first p{
+    font-weight: bold;
+    position: absolute;
+}
+
+#welcome{
+    font-size: 60px;
+    top: 14%;
+    left: 39%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 0 0 4px black;
+}
+
+#CIT{
+    font-size: 55px;
+    color: tomato;
+    top: 26%;
+    left: 20%;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-shadow: 0 0 4px white;
+}
+
+#separator{
+    position: absolute;
+    top: 28%;
+    left:35%;
+}
+
+#moto{
+    font-size: 40px;
+    top: 55%;
+    left: 21%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 0 0 4px black;
+}
+
+.second [class|="col"]{
+    float: left;
+    width: 45%;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.second [class|="col"]:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+.second .col-1 h3{
+    font-size: x-large;
+    color: tomato;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.second .col-1 p{
+    font-size: medium;
+    color: rgb(31, 30, 30);
+    text-align: justify;
+    text-indent: 35px;
+    line-height: 25px;
+}
+
+input[type=btn-more]{
+    font-size: medium;
+    border: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: tomato;
+    padding: 10px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 10%;
+}
+
+#announcement{
+    padding-top: 70px;
+    filter: sepia(70%);
+    opacity: 0.4;
+}
+
+.second .col-2{
+    position: relative;
+    text-align: left;
+}
+
+.second .col-2 h{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+} 
+
